@@ -1,0 +1,13 @@
+{
+  "name": "Emily Habits",
+  "short_name": "Emily Habits",
+  "description": "Daily habits, workouts & wellness tracker",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#E9E5DE",
+  "theme_color": "#7C4D4C",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

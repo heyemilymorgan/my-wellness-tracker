@@ -1,5 +1,5 @@
 {
-  "name": "emily-wellness-tracker",
+  "name": "emily-habits",
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",

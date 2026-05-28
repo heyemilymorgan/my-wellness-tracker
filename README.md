@@ -1,46 +1,37 @@
-# My Wellness Tracker
+# Emily Habits
 
-Your personal wellness app — macros, water, steps, workouts, daily wins.
+Your personal daily habits, workout & wellness tracker.
 
----
-
-## How to Deploy (takes ~10 minutes)
-
-### Step 1 — Upload to GitHub
-
-1. Go to **github.com** and sign in
-2. Click the **+** button (top right) → **New repository**
-3. Name it `my-wellness-tracker`
-4. Leave everything else default → click **Create repository**
-5. On the next page, click **uploading an existing file**
-6. Drag and drop ALL the files from this zip (keep the folder structure)
-7. Click **Commit changes**
-
-### Step 2 — Deploy on Vercel
-
-1. Go to **vercel.com** and sign in with GitHub
-2. Click **Add New Project**
-3. Find `my-wellness-tracker` and click **Import**
-4. Leave all settings as default — Vercel auto-detects Vite
-5. Click **Deploy**
-6. In ~60 seconds you'll get a live URL like:
-   `https://my-wellness-tracker.vercel.app`
-
-### Step 3 — Add to iPhone Home Screen
-
-1. Open your Vercel URL in **Safari** (not Chrome)
-2. Tap the **Share** button (box with arrow)
-3. Tap **"Add to Home Screen"**
-4. Name it **My Wellness** → tap **Add**
-5. Open it from your home screen — it runs full screen like a real app ✓
+## What's new in this version
+- App name: **Emily Habits** with your EM monogram icon
+- Home page combines your daily wins + water + note in one scroll (no extra tab)
+- Workout auto-checks "Complete workout" when you finish a live session
+- Water auto-checks when you hit 3 HydroJugs
+- Sage green theme, rounded font + handwritten accents
 
 ---
 
-## Your data
-- Saves automatically to your phone's browser storage
-- Resets each day (previous days are stored but not shown in this version)
-- Does NOT sync across devices
+## How to Update on Vercel (you already have this deployed)
+
+### Option A — Replace files on GitHub (fastest)
+1. Go to your GitHub repo
+2. Click **Add file → Upload files**
+3. Drag in the entire contents of this folder (keep folder structure)
+4. Commit changes
+5. Vercel redeploys automatically (~60 sec). Refresh the app on your phone.
+
+### Important — to get the new icon + name on your phone
+Because you already added the old version to your home screen, you need to re-add it:
+1. Delete the current app icon from your home screen (hold → Remove)
+2. Open your Vercel URL in **Safari**
+3. Share → **Add to Home Screen**
+4. It'll now show "Emily Habits" + your EM monogram
 
 ---
 
-Built with React + Vite. Deployed free on Vercel.
+## First-time deploy (if starting fresh)
+1. Upload this folder to a GitHub repo
+2. Go to vercel.com → Add New Project → Import the repo → Deploy
+3. Open the URL in Safari → Share → Add to Home Screen
+
+Built with React + Vite.
