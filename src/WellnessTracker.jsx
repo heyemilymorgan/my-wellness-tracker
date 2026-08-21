@@ -25,7 +25,7 @@ const PROGRAM = {
         Push: {
           note: "Find a weight you could do 3 more reps with. Log it — we'll build from here.",
           exercises: [
-            { name: "Barbell Bench Press",       sets: 3, reps: "10",       cue: "Full ROM, pause at chest" },
+            { name: "DB Bench Press"        ,       sets: 3, reps: "10",       cue: "Full ROM, pause at chest" },
             { name: "Dumbbell Shoulder Press",   sets: 3, reps: "10",       cue: "Control the descent" },
             { name: "Cable Lateral Raise",       sets: 3, reps: "12",       cue: "Lead with elbow, not wrist" },
             { name: "Tricep Rope Pushdown",      sets: 3, reps: "12",       cue: "Elbows pinned to sides" },
@@ -35,7 +35,7 @@ const PROGRAM = {
         Pull: {
           note: "Focus on feeling the muscle, not just moving weight.",
           exercises: [
-            { name: "Barbell Row",               sets: 3, reps: "10",       cue: "Drive elbows back, squeeze" },
+            { name: "1-Arm DB Row",               sets: 3, reps: "10",       cue: "Drive elbows back, squeeze" },
             { name: "Lat Pulldown",              sets: 3, reps: "10",       cue: "Pull to upper chest, full stretch" },
             { name: "Cable Row (Seated)",        sets: 3, reps: "12",       cue: "No swinging, control eccentric" },
             { name: "Face Pull",                 sets: 3, reps: "15",       cue: "Elbows high, external rotation" },
@@ -45,8 +45,8 @@ const PROGRAM = {
         "Lower A": {
           note: "Lower A is quad-dominant. Brace hard and push the floor away.",
           exercises: [
-            { name: "Barbell Back Squat",        sets: 3, reps: "8",        cue: "Hip crease below parallel" },
-            { name: "Leg Press",                 sets: 3, reps: "12",       cue: "Feet shoulder-width, full ROM" },
+            { name: "DB Goblet Squat",        sets: 3, reps: "8",        cue: "Hip crease below parallel" },
+            { name: "Bulgarian Split Squat",                 sets: 3, reps: "12",       cue: "Rear foot elevated, drop straight down" },
             { name: "Walking Lunge",             sets: 3, reps: "10 each",  cue: "Tall torso, big step" },
             { name: "Leg Extension",             sets: 3, reps: "15",       cue: "Pause at top, slow down" },
             { name: "Seated Calf Raise",         sets: 4, reps: "15",       cue: "Full stretch at bottom" },
@@ -57,7 +57,7 @@ const PROGRAM = {
           exercises: [
             { name: "Romanian Deadlift",         sets: 3, reps: "10",       cue: "Feel hamstring stretch, not low back" },
             { name: "Hip Thrust",                sets: 3, reps: "12",       cue: "Drive through heel, full extension" },
-            { name: "Leg Curl (Lying)",          sets: 3, reps: "12",       cue: "Curl all the way, don't cheat" },
+            { name: "DB Romanian Deadlift",          sets: 3, reps: "12",       cue: "Hips back, feel hamstring stretch" },
             { name: "Bulgarian Split Squat",     sets: 3, reps: "10 each",  cue: "Front foot out far enough" },
             { name: "Standing Calf Raise",       sets: 4, reps: "15",       cue: "Slow eccentric, full ROM" },
           ],
@@ -70,7 +70,7 @@ const PROGRAM = {
         Push: {
           note: "Add 5 lbs to bench and shoulder press vs Week 1, or squeeze out an extra rep.",
           exercises: [
-            { name: "Barbell Bench Press",       sets: 3, reps: "10-11",    cue: "Try to add 5 lbs from W1" },
+            { name: "DB Bench Press"        ,       sets: 3, reps: "10-11",    cue: "Try to add 5 lbs from W1" },
             { name: "Dumbbell Shoulder Press",   sets: 3, reps: "10-11",    cue: "Add 2.5 lbs each side if possible" },
             { name: "Cable Lateral Raise",       sets: 3, reps: "13",       cue: "Slow and controlled" },
             { name: "Tricep Rope Pushdown",      sets: 3, reps: "13",       cue: "Full extension every rep" },
@@ -80,7 +80,7 @@ const PROGRAM = {
         Pull: {
           note: "Same goal — more weight or more reps than Week 1.",
           exercises: [
-            { name: "Barbell Row",               sets: 3, reps: "10-11",    cue: "Add 5 lbs if W1 felt easy" },
+            { name: "1-Arm DB Row",               sets: 3, reps: "10-11",    cue: "Add 5 lbs if W1 felt easy" },
             { name: "Lat Pulldown",              sets: 3, reps: "11",       cue: "Try slightly more weight" },
             { name: "Cable Row (Seated)",        sets: 3, reps: "13",       cue: "Chest up through the pull" },
             { name: "Face Pull",                 sets: 3, reps: "15",       cue: "External rotation emphasis" },
@@ -90,8 +90,8 @@ const PROGRAM = {
         "Lower A": {
           note: "Add 5–10 lbs to squat. Trust your body.",
           exercises: [
-            { name: "Barbell Back Squat",        sets: 3, reps: "8",        cue: "Same depth, more weight" },
-            { name: "Leg Press",                 sets: 3, reps: "13",       cue: "Heavier than W1" },
+            { name: "DB Goblet Squat",        sets: 3, reps: "8",        cue: "Same depth, more weight" },
+            { name: "Bulgarian Split Squat",                 sets: 3, reps: "13",       cue: "Deeper or +weight vs W1" },
             { name: "Walking Lunge",             sets: 3, reps: "11 each",  cue: "Add light dumbbells if ready" },
             { name: "Leg Extension",             sets: 3, reps: "15",       cue: "Add a plate if W1 was easy" },
             { name: "Seated Calf Raise",         sets: 4, reps: "15",       cue: "Pause at stretch" },
@@ -102,7 +102,7 @@ const PROGRAM = {
           exercises: [
             { name: "Romanian Deadlift",         sets: 3, reps: "11",       cue: "Controlled descent, no bounce" },
             { name: "Hip Thrust",                sets: 3, reps: "13",       cue: "More weight, same squeeze" },
-            { name: "Leg Curl (Lying)",          sets: 3, reps: "13",       cue: "Don't let hips rise" },
+            { name: "DB Romanian Deadlift",          sets: 3, reps: "13",       cue: "Don't let hips rise" },
             { name: "Bulgarian Split Squat",     sets: 3, reps: "11 each",  cue: "Add 5 lbs if stable" },
             { name: "Standing Calf Raise",       sets: 4, reps: "15",       cue: "Full ROM always" },
           ],
@@ -115,7 +115,7 @@ const PROGRAM = {
         Push: {
           note: "Cut officially starts. Energy may dip mid-week — that's normal. Stay the course.",
           exercises: [
-            { name: "Barbell Bench Press",       sets: 4, reps: "8",        cue: "Extra set — maintain W2 weight" },
+            { name: "DB Bench Press"        ,       sets: 4, reps: "8",        cue: "Extra set — maintain W2 weight" },
             { name: "Incline DB Press",          sets: 3, reps: "10",       cue: "New movement — upper chest" },
             { name: "Cable Lateral Raise",       sets: 4, reps: "12",       cue: "Extra set for shoulder detail" },
             { name: "Tricep Rope Pushdown",      sets: 3, reps: "12",       cue: "Squeeze hard at lockout" },
@@ -125,7 +125,7 @@ const PROGRAM = {
         Pull: {
           note: "4 sets on the big lifts. Maintain weight from W2.",
           exercises: [
-            { name: "Barbell Row",               sets: 4, reps: "8",        cue: "Extra set, same weight as W2" },
+            { name: "1-Arm DB Row",               sets: 4, reps: "8",        cue: "Extra set, same weight as W2" },
             { name: "Lat Pulldown",              sets: 4, reps: "10",       cue: "Full stretch, full contraction" },
             { name: "Cable Row (Seated)",        sets: 3, reps: "12",       cue: "Squeeze at the end of each rep" },
             { name: "Face Pull",                 sets: 3, reps: "15",       cue: "Protect those shoulders" },
@@ -135,8 +135,8 @@ const PROGRAM = {
         "Lower A": {
           note: "4 sets on squat. This is where you hold your muscle through the cut.",
           exercises: [
-            { name: "Barbell Back Squat",        sets: 4, reps: "8",        cue: "4th set is hard — push it" },
-            { name: "Leg Press",                 sets: 3, reps: "12",       cue: "Maintain W2 weight" },
+            { name: "DB Goblet Squat",        sets: 4, reps: "8",        cue: "4th set is hard — push it" },
+            { name: "Bulgarian Split Squat",                 sets: 3, reps: "12",       cue: "Match W2 depth & control" },
             { name: "Walking Lunge",             sets: 3, reps: "12 each",  cue: "Slow eccentric, 2 sec down" },
             { name: "Leg Extension",             sets: 3, reps: "15",       cue: "Squeeze at top for 1 sec" },
             { name: "Seated Calf Raise",         sets: 4, reps: "15",       cue: "Loaded stretch" },
@@ -147,7 +147,7 @@ const PROGRAM = {
           exercises: [
             { name: "Romanian Deadlift",         sets: 4, reps: "10",       cue: "4th set should be a grind" },
             { name: "Hip Thrust",                sets: 4, reps: "12",       cue: "Extra set — glutes need volume" },
-            { name: "Leg Curl (Lying)",          sets: 3, reps: "12",       cue: "Full ROM, no cheating" },
+            { name: "DB Romanian Deadlift",          sets: 3, reps: "12",       cue: "Full ROM, no cheating" },
             { name: "Bulgarian Split Squat",     sets: 3, reps: "10 each",  cue: "Hold top for 1 sec" },
             { name: "Standing Calf Raise",       sets: 4, reps: "15",       cue: "Extra slow eccentric" },
           ],
@@ -160,7 +160,7 @@ const PROGRAM = {
         Push: {
           note: "You're 4 weeks in. Fatigue may be real. Focus on technique over ego.",
           exercises: [
-            { name: "Barbell Bench Press",       sets: 4, reps: "8-9",      cue: "Beat W3 by a rep or 2.5 lbs" },
+            { name: "DB Bench Press"        ,       sets: 4, reps: "8-9",      cue: "Beat W3 by a rep or 2.5 lbs" },
             { name: "Incline DB Press",          sets: 3, reps: "11",       cue: "Add weight if W3 felt easy" },
             { name: "Cable Lateral Raise",       sets: 4, reps: "13",       cue: "1 more rep per set than W3" },
             { name: "Tricep Rope Pushdown",      sets: 3, reps: "13",       cue: "Heavier than W3" },
@@ -170,7 +170,7 @@ const PROGRAM = {
         Pull: {
           note: "Back thickness comes from rows. Don't skip the squeeze.",
           exercises: [
-            { name: "Barbell Row",               sets: 4, reps: "9",        cue: "Add 5 lbs or 1 rep vs W3" },
+            { name: "1-Arm DB Row",               sets: 4, reps: "9",        cue: "Add 5 lbs or 1 rep vs W3" },
             { name: "Lat Pulldown",              sets: 4, reps: "11",       cue: "Extra rep each set" },
             { name: "Cable Row (Seated)",        sets: 3, reps: "13",       cue: "More weight than W3" },
             { name: "Face Pull",                 sets: 3, reps: "15",       cue: "Same weight, perfect form" },
@@ -180,8 +180,8 @@ const PROGRAM = {
         "Lower A": {
           note: "Squatting in a deficit is hard. You're doing it anyway. That's the difference.",
           exercises: [
-            { name: "Barbell Back Squat",        sets: 4, reps: "9",        cue: "Beat W3 — that's the goal" },
-            { name: "Leg Press",                 sets: 3, reps: "13",       cue: "One more rep than W3" },
+            { name: "DB Goblet Squat",        sets: 4, reps: "9",        cue: "Beat W3 — that's the goal" },
+            { name: "Bulgarian Split Squat",                 sets: 3, reps: "13",       cue: "One more rep each leg than W3" },
             { name: "Walking Lunge",             sets: 3, reps: "12 each",  cue: "Add light dumbbells" },
             { name: "Leg Extension",             sets: 3, reps: "15",       cue: "Add a plate vs W3" },
             { name: "Seated Calf Raise",         sets: 4, reps: "15",       cue: "Controlled stretch" },
@@ -192,7 +192,7 @@ const PROGRAM = {
           exercises: [
             { name: "Romanian Deadlift",         sets: 4, reps: "11",       cue: "5 lbs more than W3" },
             { name: "Hip Thrust",                sets: 4, reps: "13",       cue: "Add weight — these should burn" },
-            { name: "Leg Curl (Lying)",          sets: 3, reps: "13",       cue: "Fight the weight on the way down" },
+            { name: "DB Romanian Deadlift",          sets: 3, reps: "13",       cue: "Slow eccentric, hinge from hips" },
             { name: "Bulgarian Split Squat",     sets: 3, reps: "11 each",  cue: "Stay upright" },
             { name: "Standing Calf Raise",       sets: 4, reps: "15",       cue: "Full ROM" },
           ],
@@ -205,7 +205,7 @@ const PROGRAM = {
         Push: {
           note: "Final week. Leave nothing on the platform. You've earned every rep.",
           exercises: [
-            { name: "Barbell Bench Press",       sets: 4, reps: "8",        cue: "Match or beat W4 weight" },
+            { name: "DB Bench Press"        ,       sets: 4, reps: "8",        cue: "Match or beat W4 weight" },
             { name: "Incline DB Press",          sets: 3, reps: "12",       cue: "Strongest set of the program" },
             { name: "Cable Lateral Raise",       sets: 4, reps: "12",       cue: "Perfect form, heavier weight" },
             { name: "Tricep Rope Pushdown",      sets: 3, reps: "12",       cue: "Heaviest of the program" },
@@ -215,7 +215,7 @@ const PROGRAM = {
         Pull: {
           note: "Last pull session. Make it count.",
           exercises: [
-            { name: "Barbell Row",               sets: 4, reps: "8",        cue: "Heaviest row of the program" },
+            { name: "1-Arm DB Row",               sets: 4, reps: "8",        cue: "Heaviest row of the program" },
             { name: "Lat Pulldown",              sets: 4, reps: "10",       cue: "Best weight of the 5 weeks" },
             { name: "Cable Row (Seated)",        sets: 3, reps: "12",       cue: "Max contraction every rep" },
             { name: "Face Pull",                 sets: 3, reps: "15",       cue: "Shoulder health — don't skip" },
@@ -225,8 +225,8 @@ const PROGRAM = {
         "Lower A": {
           note: "Last squat day. This is who you are now.",
           exercises: [
-            { name: "Barbell Back Squat",        sets: 4, reps: "8",        cue: "Best squat of the program" },
-            { name: "Leg Press",                 sets: 3, reps: "12",       cue: "Heaviest leg press yet" },
+            { name: "DB Goblet Squat",        sets: 4, reps: "8",        cue: "Best squat of the program" },
+            { name: "Bulgarian Split Squat",                 sets: 3, reps: "12",       cue: "Deepest split squat yet" },
             { name: "Walking Lunge",             sets: 3, reps: "12 each",  cue: "Heavy and controlled" },
             { name: "Leg Extension",             sets: 3, reps: "15",       cue: "Burn them out" },
             { name: "Seated Calf Raise",         sets: 4, reps: "15",       cue: "Don't skip calves — ever" },
@@ -237,7 +237,7 @@ const PROGRAM = {
           exercises: [
             { name: "Romanian Deadlift",         sets: 4, reps: "10",       cue: "Heaviest RDL of the program" },
             { name: "Hip Thrust",                sets: 4, reps: "12",       cue: "Load it up — last chance" },
-            { name: "Leg Curl (Lying)",          sets: 3, reps: "12",       cue: "Slow and deliberate" },
+            { name: "DB Romanian Deadlift",          sets: 3, reps: "12",       cue: "Slow and deliberate" },
             { name: "Bulgarian Split Squat",     sets: 3, reps: "10 each",  cue: "Controlled, proud posture" },
             { name: "Standing Calf Raise",       sets: 4, reps: "15",       cue: "Full ROM to the end" },
           ],
@@ -263,6 +263,31 @@ function loadDay(k) { try { return JSON.parse(localStorage.getItem("wt6_" + k) |
 function saveDay(k, d) { try { localStorage.setItem("wt6_" + k, JSON.stringify(d)); } catch {} }
 function loadWLog() { try { return JSON.parse(localStorage.getItem("wt6_wlog") || "{}"); } catch { return {}; } }
 function saveWLog(l) { try { localStorage.setItem("wt6_wlog", JSON.stringify(l)); } catch {} }
+
+// ─── PROGRAM WEEK TRACKING ────────────────────────────────────────────────────
+// Start date = the Monday the program began. Auto week advances every 7 days,
+// but a manual override (if set) always wins so you can nudge yourself back/ahead.
+function loadStart() {
+  try {
+    const s = localStorage.getItem("wt6_start");
+    if (s) return s;
+    const t = todayKey();            // first launch: anchor to today
+    localStorage.setItem("wt6_start", t);
+    return t;
+  } catch { return todayKey(); }
+}
+function saveStart(d) { try { localStorage.setItem("wt6_start", d); } catch {} }
+function loadOverride() { try { const v = localStorage.getItem("wt6_wkoverride"); return v === null ? null : parseInt(v, 10); } catch { return null; } }
+function saveOverride(i) { try { i === null ? localStorage.removeItem("wt6_wkoverride") : localStorage.setItem("wt6_wkoverride", String(i)); } catch {} }
+
+// Which week (0-indexed) are we on by the calendar?
+function autoWeekIndex(totalWeeks) {
+  const start = new Date(loadStart() + "T00:00:00");
+  const now   = new Date(todayKey() + "T00:00:00");
+  const days  = Math.floor((now - start) / 86400000);
+  const wk    = Math.floor(days / 7);
+  return Math.max(0, Math.min(totalWeeks - 1, wk));
+}
 function getDefaultDay() { return { checklist: DEFAULT_CHECKLIST.map(i => ({ ...i, done: false })), water: 0 }; }
 
 const iStyle = {
@@ -421,10 +446,18 @@ function LiveWorkout({ exercises, workoutKey, onClose, onComplete }) {
 
 // ─── PROGRAM TAB ─────────────────────────────────────────────────────────────
 function ProgramTab({ dayData, setDayData }) {
-  const [selectedWeek, setSelectedWeek] = useState(0);
+  const totalWeeks   = PROGRAM.weeks.length;
+  const override     = loadOverride();
+  const currentWeek  = override !== null ? override : autoWeekIndex(totalWeeks); // where you are right now
+  const [selectedWeek, setSelectedWeek] = useState(currentWeek);                 // open on the current week
   const [expandedDay, setExpandedDay]   = useState(null);
   const [liveWorkout, setLiveWorkout]   = useState(null);
   const workoutLog = loadWLog();
+
+  function setAsCurrent(i) {
+    saveOverride(i);          // pins the calendar to make week i "now"
+    setSelectedWeek(i);
+  }
   const dayTypes   = ["Push", "Pull", "Lower A", "Lower B"];
   const todayName  = new Date().toLocaleDateString("en-US", { weekday: "long" });
   const todayType  = DAY_MAP[todayName];
@@ -459,12 +492,12 @@ function ProgramTab({ dayData, setDayData }) {
           <>
             <div style={{ fontFamily: "'Instrument Serif', serif", fontSize: 44, color: C.peony, marginBottom: 4 }}>{todayType}</div>
             <div style={{ fontSize: 11, color: "rgba(237,228,220,0.45)", marginBottom: 4, letterSpacing: "0.06em" }}>
-              Week {selectedWeek + 1} · {weekData.theme}
+              Week {currentWeek + 1} · {PROGRAM.weeks[currentWeek].theme}
             </div>
             <div style={{ fontSize: 11, color: C.parchment, lineHeight: 1.7, marginBottom: 16, fontStyle: "italic", opacity: 0.8 }}>
-              "{weekData.days[todayType].note}"
+              "{PROGRAM.weeks[currentWeek].days[todayType].note}"
             </div>
-            <Btn bg={C.grape} color={C.white} onClick={() => setLiveWorkout({ wi: selectedWeek, dt: todayType })} style={{ width: "100%", padding: "14px", fontSize: 12 }}>
+            <Btn bg={C.grape} color={C.white} onClick={() => setLiveWorkout({ wi: currentWeek, dt: todayType })} style={{ width: "100%", padding: "14px", fontSize: 12 }}>
               Start Workout →
             </Btn>
           </>
@@ -480,23 +513,45 @@ function ProgramTab({ dayData, setDayData }) {
       <div style={{ background: C.white, border: `1px solid rgba(196,169,154,0.2)`, borderRadius: 16, padding: 18, marginBottom: 12, boxShadow: "0 2px 12px rgba(45,48,48,0.06)" }}>
         <div style={{ fontSize: 9, fontWeight: 700, letterSpacing: "0.18em", textTransform: "uppercase", color: C.parchment, marginBottom: 12 }}>5-Week Program</div>
 
-        {/* Week pills */}
+        {/* Week pills — a dot marks the week you're actually on */}
         <div style={{ display: "flex", gap: 8, marginBottom: 16 }}>
           {PROGRAM.weeks.map((w, i) => (
             <button key={i} onClick={() => setSelectedWeek(i)} style={{
-              flex: 1, padding: "8px 4px", borderRadius: 10, border: "none", cursor: "pointer",
+              position: "relative", flex: 1, padding: "8px 4px", borderRadius: 10, border: "none", cursor: "pointer",
               fontSize: 10, fontWeight: 700, fontFamily: "'DM Sans', sans-serif", letterSpacing: "0.06em",
               background: selectedWeek === i ? C.midnight : C.peony,
               color: selectedWeek === i ? C.parchment : C.midnight, transition: "all 0.2s",
-            }}>W{i + 1}</button>
+            }}>
+              W{i + 1}
+              {i === currentWeek && (
+                <span style={{ position: "absolute", top: 3, right: 5, width: 6, height: 6, borderRadius: "50%",
+                  background: C.grape, boxShadow: "0 0 0 2px " + (selectedWeek === i ? C.midnight : C.peony) }} />
+              )}
+            </button>
           ))}
         </div>
 
         {/* Week summary */}
         <div style={{ padding: "12px 14px", background: C.peony, borderRadius: 12, marginBottom: 14 }}>
-          <div style={{ fontFamily: "'Instrument Serif', serif", fontSize: 30, color: C.midnight, marginBottom: 2 }}>Week {selectedWeek + 1}</div>
+          <div style={{ display: "flex", alignItems: "baseline", gap: 8 }}>
+            <div style={{ fontFamily: "'Instrument Serif', serif", fontSize: 30, color: C.midnight }}>Week {selectedWeek + 1}</div>
+            {selectedWeek === currentWeek
+              ? <span style={{ fontSize: 9, fontWeight: 700, letterSpacing: "0.12em", textTransform: "uppercase", color: C.grape }}>Current</span>
+              : null}
+          </div>
           <div style={{ fontSize: 12, fontWeight: 600, color: C.olive, letterSpacing: "0.06em" }}>{weekData.theme}</div>
           <div style={{ fontSize: 11, color: C.parchment, marginTop: 4 }}>~{weekData.calories} cal/day target</div>
+
+          {/* Override: only shows when browsing a week that isn't "current" */}
+          {selectedWeek !== currentWeek && (
+            <button onClick={() => setAsCurrent(selectedWeek)} style={{
+              marginTop: 10, width: "100%", padding: "9px", borderRadius: 9, border: "none", cursor: "pointer",
+              background: C.midnight, color: C.peony, fontSize: 10, fontWeight: 700,
+              fontFamily: "'DM Sans', sans-serif", letterSpacing: "0.08em", textTransform: "uppercase",
+            }}>
+              I'm actually on Week {selectedWeek + 1} — set as current
+            </button>
+          )}
         </div>
 
         {/* Day rows */}
